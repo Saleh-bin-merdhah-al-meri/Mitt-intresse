@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.header-right{
+    color:white;
+    padding: 10px;
+}
+
+.header-left{
+    display:flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.header-left a{
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color:white;
+
+}
+
+#style:focus{
+    color:red;
+}
+
+
+
+.Om-mig{
+    background-color: #2B94EB;
+    height: 50px;
+    width: 90vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex; 
+    flex-direction: row; 
+    /* justify-content: center; */
+}
+
+.Om-mig img{
+    object-fit:fill;
+    /* padding-right: 120px; */
+}
+
+.Om-mig h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    background-color: silver;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 25vw;
+    border: 2px solid #2B94EB;
+}
+
+.container p {
+  margin-left: 5vw;
+  margin-top: 7vw;
+  line-height: 1.8;
+  
+}
+
+.container img {
+    width: 20vw;
+    height: 15vw;
+    margin-top: 5vw;
+    margin-right: 10vw;
+}
+
+.kapitel {
+    color: #179A10;
+    font-family: "Anonymous Pro";
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+.bilder {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 5vw;
+    margin-top: 20px;
+}
+.bilder img {
+    margin-right: 10vw;
+}
+
+.text {
+    display: flex;
+    flex-direction: row; 
+    text-decoration: none;
+    color: black;
+    /* padding-right: 10vw; */
+
+}
+
+.text #Html ,.text #Python ,.text #C {
+    text-decoration: none;
+    color: white;
+    margin-top: 2vw;
+    background-color: solid black;
+    padding-left: 20;
+}
+.text #Html {
+    margin-left: 5vw;
+    background-color: black;
+    width: 28vw;
+    height: 20px;
+    padding-left: 12vw;
+}
+
+.text #Python {
+    margin-left: 14vw;
+    background-color: black;
+    width: 19vw;
+    height: 20px;
+    padding-left: 8vw;
+}
+
+.text #C {
+    margin-left: 13vw;
+    background-color: black;
+    width: 13vw;
+    height: 20px;
+    padding-left: 5.5vw;
+}
+
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.all-header{
+    display:flex;
+    margin-top:10vw;
+}
+
+.container-left{
+    
+    display: flex;
+    background-color: #2B94EB;
+    width: 42.5vw;
+    height: 54px;
+    margin-left: 5vw;
+    align-items: center;
+    
+}
+
+.container-right{
+    display: flex;
+    background-color: #2B94EB;
+    width: 42.5vw;
+    height: 54px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    align-items: center;
+}
+
+.container-left img, .container-right img {
+   object-fit: fill;
+   height: 54px;
+}
+
+.all-body {
+    display:flex;
+}
+
+.body-left {
+    background-color: #514949;
+    width: 42.5vw;
+    height: 20vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-right {
+    background-color: #514949;
+    width: 42.5vw;
+    height: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-right a{
+    font-size:xx-large;
+    color: #2B94EB;
+    text-decoration: none;
+}
+
+.body-left a{
+    font-size:xx-large;
+    color: #2B94EB;
+    text-decoration: none;
+}
