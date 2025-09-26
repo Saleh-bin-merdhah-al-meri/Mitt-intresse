@@ -48,12 +48,10 @@
     margin-right: 5vw;
     display: flex; 
     flex-direction: row; 
-    /* justify-content: center; */
 }
 
 .Om-mig img{
     object-fit:fill;
-    /* padding-right: 120px; */
 }
 
 .Om-mig h1 {
@@ -112,8 +110,6 @@
     flex-direction: row; 
     text-decoration: none;
     color: black;
-    /* padding-right: 10vw; */
-
 }
 
 .text #Html ,.text #Python ,.text #C {
